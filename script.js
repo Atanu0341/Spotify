@@ -1,14 +1,14 @@
 console.log("Welcome to Spotify");
 // Initialize the Variables
 let songIndex = 0;
-let audioElement = new Audio('Tera_Zikr-Darshan_Raval.mp3');
+let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 
 let songs = [
-    { songName: "Tera Zikr", filePath: "songs/Tera_Zikr-Darshan_Raval.mp3", coverPath: "cover1.jpg" },
-    { songName: "Tera Zikr", filePath: "songs/Tera_Zikr-Darshan_Raval.mp3", coverPath: "cover1.jpg" },
-    { songName: "Tera Zikr", filePath: "songs/Tera_Zikr-Darshan_Raval.mp3", coverPath: "cover1.jpg" },
+    { songName: "Tera Zikr", filePath: "songs/1.mp3", coverPath: "cover/1.jpg" },
+    { songName: "Tera Zikr", filePath: "songs/1.mp3", coverPath: "cover/1.jpg" },
+    { songName: "Tera Zikr", filePath: "songs/1.mp3", coverPath: "cover/1.jpg" },
 ]
 
 // audioElement.play();
