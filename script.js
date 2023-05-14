@@ -10,9 +10,9 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "Tera Zikr", filePath: "songs/1.mp3", coverPath: "cover/1.jpg" },
-    { songName: "Zara Zara Bahekta Hai", filePath: "songs/2.mp3", coverPath: "cover/2.jpg" },
-    { songName: "Likhe Jo Khat Tujhe", filePath: "songs/3.mp3", coverPath: "cover/3.jpg" },
+    { songName: "Tera Zikr - Darshan Raval ", filePath: "songs/1.mp3", coverPath: "cover/1.jpg" },
+    { songName: "Zara Zara Bahekta Hai - JalRaj", filePath: "songs/2.mp3", coverPath: "cover/2.jpg" },
+    { songName: "Likhe Jo Khat Tujhe - Sanam Band", filePath: "songs/3.mp3", coverPath: "cover/3.jpg" },
 ]
 
 songItems.forEach((element, i)=>{ 
