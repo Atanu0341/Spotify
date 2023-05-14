@@ -137,3 +137,9 @@ nav ul li {
     }
   }
   
+  @media only screen and (max-width: 356px) {
+   .songItem{
+    height: 62px;
+   }
+  }
+  
