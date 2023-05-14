@@ -118,3 +118,19 @@ nav ul li {
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+
+    .bottom {
+        height: 200px;
+    }
+
+    .icons{
+        margin-top: 95px;
+    }
+
+  }
+  
